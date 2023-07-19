@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Random Website Name</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Your Random Website Name</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <!-- Input box for users to paste tweet URL -->
+            <div>
+                <label for="tweetUrl">Paste Tweet URL:</label>
+                <input type="text" id="tweetUrl" placeholder="e.g., https://twitter.com/username/status/123456789">
+                <button onclick="extractMedia()">Download</button>
+            </div>
+            <!-- Display extracted media here -->
+            <div id="mediaContainer"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
